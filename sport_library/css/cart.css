@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 10px; 
+} */
+
+/* body {
+    background: #000;
+}
+
+/* --------------------------main------------------ */
+
+.top-container {
+    display: block;
+    max-height: 20px;
+}
+
+.right-info {
+    font-weight: 300;
+    width: 100%;
+    float: right;
+    font-size: 50px;
+    color: #000;
+}
+
+.right-info p {
+    padding: 0px 35px;
+    float: right;
+    color: #fff;
+}
+
+.cart-container {
+    margin: 65px auto;
+    width: 100%;
+    max-width: 560px;
+    min-height: 300px;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.cart {
+    flex-wrap: wrap;
+    display: flex;
+    min-height: 100px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.order {
+    width: 100%;
+}
+
+.details-order {
+    margin-bottom: 20px;
+}
+
+.order input {
+    color: #000;
+    border: 1px solid #000;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 90%;
+    height: 50px;
+}
+
+.button {
+    margin-bottom: 18px;
+}
+
+.button .right-button {
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    padding: 12px 21px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 90%;
+    height: 50px;
+}
+
+.items {
+    display: flex;
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.items img {
+    flex-basis: 19%;
+    width: 80px;
+}
+
+.items input {
+    flex-basis: 19%;
+}
+
+.items p {
+    flex-basis: 21%;
+    font-size: 18px;
+    font-weight: bold;
+}
+

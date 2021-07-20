@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 10px; 
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.padding90px {
+    padding-bottom: 90px;
+}
+
+
+/* ------------------------main------------------ */
+
+.top-container {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 90px;
+}
+
+.left-info {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+
+.left-info p {
+    padding: 20px 35px;
+}
+
+.right-info {
+    font-weight: 300;
+    width: 50%;
+    float: left;
+    font-size: 50px;
+    color: #000;
+}
+
+.right-info p {
+    padding: 0px 35px;
+    float: right;
+}
+
+.photo-text-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-container {
+    margin: 0 20px;
+    background-color: #fff;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+.photo-container img {
+    height: 500px;
+}
+
+.about-container {
+    margin: 0 20px;
+    width: 700px;
+}
+
+.name {
+    line-height: 1.35;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.price {
+    line-height: 1.35;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.about {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.about-container ul {
+    padding-left: 20px;
+}
+
+.about-container ul li {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}

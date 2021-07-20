@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 10px; 
+}
+
+/* ---------------header------------- */
+nav {
+    width: 100%;
+    background: #000;
+    position: fixed;
+    z-index: 990;
+    height: 90px;
+}
+
+.nav-container {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.padding40px {
+    width: 40px;
+}
+
+.left-table {
+    text-align: center;
+}
+
+.left-container a {
+    text-decoration: none;
+}
+
+.left-container a .sport-library {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+}
+
+.middle-table {
+    width: calc(100%/2);
+    text-align: center;
+}
+
+.middle-container ul {
+    margin: 0;
+}
+
+.middle-container ul li .list-item:first-child {
+    padding-left: 0;
+}
+
+.middle-container .list-item .hyper {
+    text-decoration: none;
+    color: #fff
+}
+
+.middle-container .list-item {
+    position: relative;
+    clear: both;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menusub-content{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+}
+
+.menusub-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menusub-list {
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 5px;
+}
+
+.menusub-list:hover {
+    font-size: 18px;
+}
+    
+.menu .list-item:hover{
+    cursor: pointer;
+}
+
+.middle-container ul li:hover .menusub-content {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    max-width: 100%;
+    color: #000;
+    top: 100%;
+    margin-left: -13px;
+}
+
+.right-table {
+    text-align: center;
+}
+
+.right-container .right-button {
+    color: #fff;
+    background-color: #ff4c7c;
+    border: 0;
+    padding: 12px 31px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.right-container .right-button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff4c7c;
+}
+/* -------------------end header---------------- */
+
+/* --------------main content------------- */
+
+.container-base {
+    padding-top: 135px;
+}
+
+.main-content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.main-content h1 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.23;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.main-content p {
+    margin: 0 auto;
+    padding-top: 21px;
+    font-size: 22px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.main-content a {
+    text-decoration: none;
+}
+
+.container-hr {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    width: 100%;
+}
+
+.container-hr .hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.container-hr .hr hr {
+    background-color: #000;
+    opacity: 0.2;
+    height: 1px;
+    border: none;
+}
+
+.container-ex {
+    background-color: #fff;
+}
+
+.container-h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.container-h1 h1 {
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    margin-bottom: 105px;
+    font-size: 42px;
+    line-height: 1.23;
+}
+
+.container-info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.pullup-img {
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100%/2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/pullup.jpg);
+}
+
+.pullup-img-none {
+    display: none;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/pullup.jpg);
+}
+
+.info-pullup-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100%/2);
+}
+
+.info-pullup-h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.info-pullup-h1 h1 {
+    font-size: 26px;
+    line-height: 1.23;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.main-word {
+    font-weight: bold;
+    color: #ff8562;
+}
+
+.main-info-container {
+    max-width: 560px;
+}
+
+.main-info-container .first-p{
+    font-size: 20px;
+    line-height: 1.55;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.main-info-container p{
+    font-size: 20px;
+    line-height: 1.55;
+    color: #000;
+}
+
+.margin120px {
+    margin-bottom: 120px;
+    clear: both;
+}
+
+.pullup-img-tecnick {
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc(100%/2);
+    background-image: url(../images/pullup-tecnick.jpg);
+}
+
+.main-info-container ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.main-info-container ul li{
+    font-size: 20px;
+    line-height: 1.55;
+    color: #000;
+}
+
+.deadlift-img {
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/deadlift.jpg);
+    width: calc(100%/2);
+}
+
+.deadlift-img-none {
+    display: none;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/deadlift.jpg);
+    width: 550px;
+}
+
+.info-deadlift-container {
+    min-height: 420px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100%/2);
+    display: flex;
+    align-items: center;
+}
+
+.info-deadlift-h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.info-deadlift-h1 h1{
+    font-size: 26px;
+    line-height: 1.23;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.deadlift-img-tecnick {
+    height: 450px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc(100%/2);
+    background-image: url(../images/deadlift-tecnick.jpg);
+}
+
+
+.main-info-container ol {
+    padding-left: 22px;
+    margin-bottom: 10px;
+}
+
+.main-info-container ol li{
+    font-size: 20px;
+    line-height: 1.55;
+    color: #000;
+}
+
+.bobs-img {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/bobs.jpg);
+    height: 450px;
+    width: calc(100%/2);
+}
+
+.bobs-img-none {
+    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/bobs.jpg);
+    height: 450px;
+    width: 550px;
+}
+
+
+.bobs-img-tecnick {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/bobs-tecnick.jpg);
+    height: 450px;
+    width: calc(100%/2);
+}
+
+.info-bobs-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100%/2);
+}
+
+.info-bobsalign {
+    width: calc(100%/2);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* ---------------media------------ */
+
+@media screen and (max-width : 1215px) {
+    .main-content {
+        width: 80%;
+    }
+
+    .container-hr {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width : 890px) {
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        padding: 0;
+        display: block;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .middle-container ul li:hover .menusub-content {
+        margin-left: auto;
+    }
+
+    .container-h1 h1 {
+        margin-bottom: 75px;
+    }
+
+    .container-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pullup-img {
+        display: none;
+    }
+
+    .pullup-img-none {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .info-pullup-container {
+        width: auto;
+    }
+
+    .pullup-img-tecnick {
+        width: 550px;
+        margin-top: 50px;
+    }
+
+    .info-deadlift-container {
+        width: auto;
+        min-height: auto;
+    }
+
+    .deadlift-img {
+        display: none;
+    }
+
+    .deadlift-img-none {
+        display: block;
+    }
+
+    .deadlift-img-tecnick {
+        width: 550px;
+        margin-top: 50px;
+    }
+
+    .info-bobsalign {
+        width: auto;
+    }
+
+    .bobs-img {
+        display: none;
+    }
+
+    .bobs-img-none {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .info-bobs-container {
+        width: auto;
+    }
+
+    .bobs-img-tecnick {
+        width: 550px;
+        margin-top: 50px;
+    }
+
+    .margin120px {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width : 660px) {
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 590px) {
+
+    .padding40px {
+        width: 5%;
+    }
+        
+    .left-table {
+        width: calc(100%/3);
+    }
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 16px;
+    }
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        font-size: 16px;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-table {
+        width: calc(100%/3);
+    }
+
+    .right-container .right-button {
+        padding: 7px 26px;
+    }
+
+    .container-h1 h1 {
+        margin-bottom: 75px;
+        font-size: 34px;
+    }
+
+    .container-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pullup-img {
+        display: none;
+    }
+
+    .pullup-img-none {
+        width: 350px;
+        height: 250px;
+    }
+
+    .info-pullup-container {
+        width: 350px;
+    }
+
+    .info-pullup-h1 h1, .info-deadlift-h1 h1, .info-pullup-h1 h1 {
+        font-size: 24px;
+    }
+
+    .main-info-container .first-p, .main-info-container p  {
+        font-size: 18px;
+    }
+
+    .pullup-img-tecnick {
+        width: 350px;
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .info-deadlift-container {
+        width: 350px;
+    }
+
+    .deadlift-img {
+        display: none;
+    }
+
+    .deadlift-img-none {
+        width: 350px;
+        height: 250px;
+    }
+
+    .deadlift-img-tecnick {
+        width: 350px;
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .main-info-container ul li {
+        font-size: 18px;
+    }
+
+    .info-bobsalign {
+        width: 350px;
+    }
+
+    .bobs-img {
+        display: none;
+    }
+
+    .bobs-img-none {
+        margin-top: 10px;
+        width: 350px;
+        height: 250px;
+    }
+
+    .info-bobs-container {
+        width: 350px;
+    }
+
+    .bobs-img-tecnick {
+        width: 350px;
+        height: 250px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width : 380px) {
+
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 14px;
+    }
+
+    .middle-container .list-item {
+        font-size: 14px;
+    }
+
+    .menusub-list {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-container .right-button {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+
+    .container-h1 {
+        width: 90%;
+    }
+
+    .container-h1 h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .main-content h1 {
+        font-size: 30px;
+    }
+
+    .main-content p {
+        font-size: 18px;
+    }
+
+    .info-pullup-container, .info-deadlift-container, .info-bobsalign, .info-bobs-container  {
+        width: 220px;
+    }
+
+}

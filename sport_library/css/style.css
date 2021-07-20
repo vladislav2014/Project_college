@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 10px; 
+}
+
+/* ---------------header------------- */
+nav {
+    width: 100%;
+    background: #000;
+    position: fixed;
+    z-index: 990;
+    height: 90px;
+}
+
+.nav-container {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.padding40px {
+    width: 40px;
+}
+
+.left-table {
+    text-align: center;
+}
+
+.left-container a {
+    text-decoration: none;
+}
+
+.left-container a .sport-library {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+}
+
+.middle-table {
+    width: calc(100%/2);
+    text-align: center;
+}
+
+.middle-container ul {
+    margin: 0;
+}
+
+.middle-container ul li .list-item:first-child {
+    padding-left: 0;
+}
+
+.middle-container .list-item .hyper {
+    text-decoration: none;
+    color: #fff
+}
+
+.middle-container .list-item {
+    position: relative;
+    clear: both;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menusub-content{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+}
+
+.menusub-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menusub-list {
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 5px;
+}
+
+.menusub-list:hover {
+    font-size: 18px;
+}
+    
+.menu .list-item:hover{
+    cursor: pointer;
+}
+
+.middle-container ul li:hover .menusub-content {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    max-width: 100%;
+    color: #000;
+    top: 100%;
+    margin-left: -13px;
+}
+
+.right-table {
+    text-align: center;
+}
+
+.right-container .right-button {
+    color: #fff;
+    background-color: #ff4c7c;
+    border: 0;
+    padding: 12px 31px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.right-container .right-button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff4c7c;
+}
+/* -------------------end header---------------- */
+
+
+/* -----------------main content-------------- */
+
+.img-sport-library {
+    padding-top: 90px;
+    min-height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    background-image: url(../images/logo.jpg);
+    background-attachment: scroll;
+}
+
+.filter {
+    padding-top: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 450px;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.60), rgba(34,34,34,0.20));
+}
+
+.text-sport-library {
+    min-height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #fff;
+}
+
+.about-us-container {
+    width: 100%;
+    min-height: 495px;
+}
+
+.about-us-text {
+    font-size: 24px;
+    padding: 180px 0;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+.about-us-text h1{
+    padding-bottom: 40px;
+}
+
+.about-us-text p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    line-height: 1.50;
+    text-align: justify;
+}
+
+/* ------------main content end------------------- */
+
+/* ----------------footer--------------- */
+
+footer {
+    min-height: 250px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-text {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.second-text {
+    line-height: 1.23;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.second-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img{
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 50%;
+    width: 60px;
+}
+
+/* -----------footer end-------------- */
+
+/* -------------media----------- */
+
+
+
+@media screen and (max-width : 890px) {
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        padding: 0;
+        display: block;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .middle-container ul li:hover .menusub-content {
+        margin-left: auto;
+    }
+
+    .text-sport-library .text {
+        width: 90%;
+    }
+
+    footer {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .about-us-container {
+        min-height: auto;
+
+    }
+    
+    .about-us-text {
+        width: 70%;
+        font-size: 20px;
+        padding: 50px 0;
+    }
+
+    .second-text {
+        font-size: 32px;
+    }
+
+    .social img {
+        width: 50px;
+    }
+
+}
+
+@media screen and (max-width : 660px) {
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 590px) {
+
+    .padding40px {
+        width: 5%;
+    }
+        
+    .left-table {
+        width: calc(100%/3);
+    }
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 16px;
+    }
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        font-size: 16px;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-table {
+        width: calc(100%/3);
+    }
+
+    .right-container .right-button {
+        padding: 7px 26px;
+    }
+
+    .text-sport-library .text {
+        font-size: 60px;
+    }
+    
+}
+
+@media screen and (max-width : 380px) {
+
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 14px;
+    }
+
+    .middle-container .list-item {
+        font-size: 14px;
+    }
+
+    .menusub-list {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-container .right-button {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+
+    .about-us-container {
+        min-height: auto;
+    }
+
+    .text-sport-library .text {
+        font-size: 35px;
+    }
+
+    .about-us-text {
+        padding: 50px 0;
+        width: 70%;
+    }
+
+    .about-us-text h1 {
+        font-size: 35px;
+    }
+
+    .about-us-text p {
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    footer {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .first-text {
+        font-size: 14px;
+    }
+
+    .second-text {
+        font-size: 28px;
+    }
+
+    .social img {
+        width: 50px;
+    }
+
+}

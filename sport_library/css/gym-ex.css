@@ -1,0 +1,989 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 10px; 
+}
+
+.main-word {
+    font-weight: bold;
+    color: #ff8562;
+}
+
+/* .padding90px {
+    padding-top: 90px;
+} */
+
+.padding90px {
+    padding-top: 50px;
+}
+.padding50px {
+    padding-top: 50px;
+}
+
+/* ---------------header------------- */
+nav {
+    width: 100%;
+    background: #000;
+    position: fixed;
+    z-index: 990;
+    height: 90px;
+}
+
+.nav-container {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.padding40px {
+    width: 40px;
+}
+
+.left-table {
+    text-align: center;
+}
+
+.left-container a {
+    text-decoration: none;
+}
+
+.left-container a .sport-library {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+}
+
+.middle-table {
+    width: calc(100%/2);
+    text-align: center;
+}
+
+.middle-container ul {
+    margin: 0;
+}
+
+.middle-container ul li .list-item:first-child {
+    padding-left: 0;
+}
+
+.middle-container .list-item .hyper {
+    text-decoration: none;
+    color: #fff
+}
+
+.middle-container .list-item {
+    position: relative;
+    clear: both;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menusub-content{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+}
+
+.menusub-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menusub-list {
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 5px;
+}
+
+.menusub-list:hover {
+    font-size: 18px;
+}
+    
+.menu .list-item:hover{
+    cursor: pointer;
+}
+
+.middle-container ul li:hover .menusub-content {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    max-width: 100%;
+    color: #000;
+    top: 100%;
+    margin-left: -13px;
+}
+
+.right-table {
+    text-align: center;
+}
+
+.right-container .right-button {
+    color: #fff;
+    background-color: #ff4c7c;
+    border: 0;
+    padding: 12px 31px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.right-container .right-button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff4c7c;
+}
+/* -------------------end header---------------- */
+
+.header-home-ex-h1 {
+    margin: 0 auto;
+    padding-top: 180px;
+    text-align: center;
+    max-width: 1200px;
+}
+.header-home-ex-h1 h1 {
+    font-size: 46px;
+    line-height: 1.17;
+}
+
+.line-hr {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.line-hr .container-hr {
+    padding-top: 44px;
+    padding-bottom: 28px;
+}
+
+.line-hr .container-hr hr {
+    margin: 0 auto;
+    max-width: 1160px;
+    background-color: #000000;
+    opacity: 0.2;
+    border: none;
+    height: 1px;
+}
+
+.main-photo-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-photo-container .bg-photo img {
+    width: 100%;
+}
+
+.container-content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.container-content .content {
+    padding: 30px;
+    max-width: 750px;
+    margin: 0 auto;
+    border: 5px solid #ff8562;
+}
+
+.container-content .content h1 {
+    font-size: 30px;
+    line-height: 1.17;
+    margin-bottom: 20px;
+}
+
+.container-content .content ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container-content .content ul li a:hover{
+    position: absolute;
+    font-size: 22px;
+    color: #ff8562;
+    transition: 0.3s;
+}
+
+.container-content .content ul {
+    font-weight: 600;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.17;
+}
+
+.container-content .content ul li {
+    padding-bottom: 10px;
+}
+
+.container-about-ex {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-about-ex-first p a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 960px;
+    font-size: 26px;
+    line-height: 1.45;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+.container-about-ex-first h1 {
+    font-size: 34px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.17;
+    margin-bottom: 50px;
+}
+
+.container-about-ex-first p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 26px;
+    line-height: 1.45;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+
+.container-about-ex-second p {
+    font-size: 30px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.55;
+    width: 95%;
+    font-weight: 300;
+    color: #000000;
+}
+.main-container-ex-and-info {
+    padding-top: 90px;
+    padding-bottom: 15px;
+    width: 100%;
+} 
+
+.container-ex-and-info {
+    padding-top: 30px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-photo {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo1 img {
+    width: 100%;
+}
+
+.align-photo2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo2 img {
+    width: 100%;
+}
+
+.align-photo3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo3 img {
+    width: 100%;
+}
+
+.align-photo4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo4 img {
+    width: 100%;
+}
+
+.align-photo5 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo5 img {
+    width: 100%;
+}
+
+.align-photo6 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo6 img {
+    width: 100%;
+}
+
+.align-photo7 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo7 img {
+    width: 100%;
+}
+
+.align-photo8 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo8 img {
+    width: 100%;
+}
+
+.align-photo9 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo9 img {
+    width: 100%;
+}
+
+.align-photo10 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo10 img {
+    width: 100%;
+}
+
+.align-photo11 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo11 img {
+    width: 100%;
+}
+
+.align-photo12 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo12 img {
+    width: 100%;
+}
+
+.align-photo13 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo13 img {
+    width: 100%;
+}
+
+.align-photo14 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo14 img {
+    width: 100%;
+}
+
+.align-photo15 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo15 img {
+    width: 100%;
+}
+
+.align-photo16 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo16 img {
+    width: 100%;
+}
+
+.align-photo17 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo17 img {
+    width: 100%;
+}
+
+.align-photo18 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo18 img {
+    width: 100%;
+}
+
+.align-photo19 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.align-photo19 img {
+    width: 100%;
+}
+
+.container-photo img {
+    width: 100%;
+}
+
+.container-info {
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60%;
+}
+
+.container-info .info {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+}
+
+.info-align1 {
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60%;
+}
+
+.info-align1 .info {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    /* font-weight: 300; */
+    color: #000000;
+}
+
+.container-info .text-align {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+}
+
+.container-info .text-align2 {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+}
+
+.container-info .text-align3 {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+}
+
+.container-info .text-align4 {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+}
+
+.container-info .text-align5 {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+}
+
+
+
+.container-info .info ul {
+    padding-left: 20px;
+}
+
+.container-info .text-align ul, .text-align2 ul, .text-align3 ul,.text-align4 ul,.text-align5 ul {
+    padding-left: 20px;
+}
+
+.o {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 42.5px 0;
+    display: flex;
+}
+
+.t {
+    margin: 0 auto;
+    width: 70%;
+    opacity: 0.2;
+    display: flex;
+}
+
+.l {
+    background-image: -webkit-linear-gradient(right, #000000, rgba(0,0,0,0));
+    height: 1px;
+    width: 20%;
+}
+
+.m {
+    background: #000000;
+    width: 100%;
+    height: 1px;
+    display: table-cell;
+}
+
+.r {
+    background-image: -webkit-linear-gradient(left, #000000, rgba(0,0,0,0));
+    height: 1px;
+    width: 20%;
+}
+
+.header-gym-training {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.header-gym-training h1 {
+    padding-bottom: 90px;
+    font-size: 34px;
+    line-height: 1.17;
+}
+
+.training-photo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.training-photo .first-photo {
+    padding: 20px 10px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.training-photo .second-photo {
+    padding: 20px 10px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.training-photo img {
+    height: 370px;
+    width: 100%;
+}
+
+.container-programm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.main-content-programm {
+    line-height: 1.55;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+    margin: auto;
+    width: 70%;
+}
+
+.main-content-programm h1 {
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.main-content-programm ol {
+    padding-left: 30px;
+}
+
+.main-content-programm ol li {
+    font-size: 20px;
+}
+
+/* ------------media---------- */
+
+@media screen and (max-width : 890px) {
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        padding: 0;
+        display: block;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .middle-container ul li:hover .menusub-content {
+        margin-left: auto;
+    }
+
+    .container-content .content {
+        max-width: 650px;
+    }
+
+        
+    .about-content ul li a:hover {
+        font-size: 20px;
+        position: relative;
+        color: #04bf58;
+        transition: 0.3s;
+    }
+    
+    .about-content ul li a .main-word:hover {
+        font-size: 20px;
+        color: #04bf58;
+        transition: 0.3s;
+    }
+
+}
+
+@media screen and (max-width : 750px) {
+
+    .main-container-ex-and-info {
+        padding-top: 40px;
+    }
+
+    .container-ex-and-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-photo {
+        width: 60%;
+        padding-bottom: 40px;
+    }
+
+    .container-content .content {
+        max-width: 80%;
+    }
+
+    .header-home-ex-h1 h1 {
+        font-size: 35px;
+    }
+
+    .container-content .content h1 {
+        font-size: 25px;
+    }
+
+    .container-content .content ul {
+        font-size: 16px;
+    }
+
+    .about-content ul li a:hover {
+        font-size: 16px;
+        position: relative;
+        color: #04bf58;
+        transition: 0.3s;
+    }
+    
+    .about-content ul li a .main-word:hover {
+        font-size: 16px;
+        color: #04bf58;
+        transition: 0.3s;
+    }
+
+    .container-about-ex-first h1 .main-word {
+        font-size: 25px;
+    }
+
+    .container-about-ex-first p {
+        font-size: 18px;
+    }
+
+    .container-about-ex-second p {
+        font-size: 18px;
+    }
+
+    .container-info .info {
+        font-size: 16px;
+    }
+
+    .info-align {
+        font-size: 16px;
+    }
+
+    .info-bic-align {
+        font-size: 16px;
+    }
+
+    .container-info {
+        padding-left: 0px;
+    }
+
+    .container-about-ex-second {
+        width: 80%;
+        margin: auto;
+    }
+
+    .container-about-ex-first p a {
+        font-size: 21px;
+    }
+
+    .container-info .text-align ul, .text-align2 ul, .text-align3 ul,.text-align4 ul,.text-align5 ul {
+        font-size: 16px;
+    }
+
+    .align-photo1, .align-photo2, .align-photo3, .align-photo4,.align-photo5,.align-photo6,.align-photo7,.align-photo8,.align-photo9,.align-photo10,.align-photo11,.align-photo12,.align-photo13,.align-photo14,.align-photo15,.align-photo16,.align-photo17,.align-photo18,.align-photo19 {
+        width: 60%;
+        padding-bottom: 40px;
+    }
+
+    .info-align1 .info {
+        font-size: 16px;
+    }
+
+    .training-photo img {
+        height: 250px;
+    }
+
+    .main-content-programm h1 {
+        font-size: 22px;
+    }
+
+    .main-content-programm ol li {
+        font-size: 16px;
+    }
+
+    .header-gym-training {
+        width: 85%;
+        margin: auto;
+    }
+
+    .header-gym-training h1 {
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width : 660px) {
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .header-home-ex-h1 {
+        padding-top: 140px;
+    }
+
+    .padding90px {
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width : 590px) {
+
+    .padding40px {
+        width: 5%;
+    }
+        
+    .left-table {
+        width: calc(100%/3);
+    }
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 16px;
+    }
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        font-size: 16px;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-table {
+        width: calc(100%/3);
+    }
+
+    .right-container .right-button {
+        padding: 7px 26px;
+    }
+
+    .container-content .content {
+        max-width: 70%;
+    }
+
+    .header-home-training h1 {
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+
+    .training-photo img {
+        height: 210px;
+    }
+
+    .main-content-programm h1 {
+        font-size: 22px;
+    }
+
+    .main-content-programm ol li {
+        font-size: 16px;
+    }
+
+    .container-cont .cont {
+        max-width: 70%;
+    }
+
+    .container-cont .cont p {
+        font-size: 16px;
+    }
+
+    .header-home-training {
+        width: 85%;
+    }
+
+    .container-about-ex-first {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 380px) {
+
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 14px;
+    }
+
+    .middle-container .list-item {
+        font-size: 14px;
+    }
+
+    .menusub-list {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-container .right-button {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+
+    .header-home-ex-h1 h1 {
+        font-size: 25px;
+    }
+
+}

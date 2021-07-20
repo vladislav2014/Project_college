@@ -1,0 +1,1005 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 10px; 
+}
+
+.main-word {
+    font-weight: bold;
+    color: #ff8562;
+}
+
+.bold {
+    font-weight: bold;
+    color: #000;
+}
+
+.padding90px {
+    padding-top: 90px;
+}
+.padding50px {
+    padding-top: 50px;
+}
+
+/* ---------------header------------- */
+nav {
+    width: 100%;
+    background: #000;
+    position: fixed;
+    z-index: 990;
+    height: 90px;
+}
+
+.nav-container {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.padding40px {
+    width: 40px;
+}
+
+.left-table {
+    text-align: center;
+}
+
+.left-container a {
+    text-decoration: none;
+}
+
+.left-container a .sport-library {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+}
+
+.middle-table {
+    width: calc(100%/2);
+    text-align: center;
+}
+
+.middle-container ul {
+    margin: 0;
+}
+
+.middle-container ul li .list-item:first-child {
+    padding-left: 0;
+}
+
+.middle-container .list-item .hyper {
+    text-decoration: none;
+    color: #fff
+}
+
+.middle-container .list-item {
+    position: relative;
+    clear: both;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menusub-content{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+}
+
+.menusub-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menusub-list {
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 5px;
+}
+
+.menusub-list:hover {
+    font-size: 18px;
+}
+    
+.menu .list-item:hover{
+    cursor: pointer;
+}
+
+.middle-container ul li:hover .menusub-content {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    max-width: 100%;
+    color: #000;
+    top: 100%;
+    margin-left: -13px;
+}
+
+.right-table {
+    text-align: center;
+}
+
+.right-container .right-button {
+    color: #fff;
+    background-color: #ff4c7c;
+    border: 0;
+    padding: 12px 31px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.right-container .right-button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff4c7c;
+}
+/* -------------------end header---------------- */
+
+/* --------------cart---------- */
+
+.cart-img {
+    display: none;
+    position: fixed;
+    top: 300px;
+    right: 100px;
+    background-color: rgba(255,255 ,255 ,0.5);
+    border-radius: 50%;
+    padding: 20px;
+    /* border: 0.3px solid black; */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.cart-img img {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+}
+
+.count {
+    margin-top: 5px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 2;
+    position: fixed;
+}
+
+.count input {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+/* ---------end cart----------- */
+
+/* -----------------main_content------------ */
+
+.scroll-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55vh;
+    background-image: url(../shop/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.main-text {
+    width: 100%;
+}
+
+.main-text p {
+    margin: 0 0 7% 0;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 72px;
+}
+
+.about_product {
+    padding: 90px 0 0 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about_product p {
+    line-height: 1.35;
+    max-width: 75%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+}
+
+.shop-items {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-items {
+    padding-bottom: 90px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.new-items {
+    width: calc(100%/3);
+    height: 500px;
+}
+
+.new-items:hover .text-about{
+    display: none;
+    transition: 1s;
+}
+
+.new-items:hover .button-hover{
+    display: block;
+}
+
+.photo img {
+    max-width: 100%;
+    height: 400px;
+}
+
+.text-about {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.price {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.button-hover {
+    width: 100%;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .first {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    height: 31px;
+    background-color: #888;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+.first p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+}
+
+.second button:hover {
+    cursor: pointer;
+}
+
+.second button{
+    border: none;
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    height: 31px;
+    background-color: #000;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.second p {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+    height: 100%;
+    color: #fff;
+    font-size: 23px;
+}
+
+.line-hr {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.line-hr .container-hr {
+    padding-top: 44px;
+    padding-bottom: 28px;
+}
+
+.line-hr .container-hr hr {
+    margin: 0 auto;
+    max-width: 1160px;
+    background-color: #000000;
+    opacity: 0.2;
+    border: none;
+    height: 1px;
+}
+
+/* -------cart-------- */
+
+.container-cart {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.top-container {
+    display: block;
+    max-height: 20px;
+}
+
+.right-info {
+    font-weight: 300;
+    width: 100%;
+    float: right;
+    font-size: 50px;
+    color: #000;
+}
+
+.right-info p {
+    padding: 0px 35px;
+    float: right;
+    color: #fff;
+}
+
+.cart-container {
+    margin: 65px auto;
+    width: 100%;
+    max-width: 560px;
+    min-height: 300px;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.cart {
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    min-height: 100px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.order {
+    width: 100%;
+}
+
+.details-order {
+    margin-bottom: 20px;
+}
+
+.order input {
+    color: #000;
+    border: 1px solid #000;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 90%;
+    height: 50px;
+}
+
+.button {
+    margin-bottom: 18px;
+}
+
+.button .right-button {
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    padding: 12px 21px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 90%;
+    height: 50px;
+}
+
+.items {
+    display: flex;
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.items img {
+    flex-basis: 19%;
+    width: 80px;
+}
+
+.items input {
+    text-align: center;
+    flex-basis: 5%;
+}
+
+.items p {
+    flex-basis: 40%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.items a {
+    flex-basis: 5%;
+    color: #000;
+    font-size: 25px;
+}
+
+#size1, #size2, #size3, #size4, #size5, #size6, #size7, #size8, #size9 {
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+#price1, #price2, #price3, #price4, #price5, #price6, #price7, #price8, #price9 {
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+
+/* --------------------о товарах --------------- */
+
+.top-container-info {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin-bottom: 90px;
+}
+
+.left-info {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+
+.left-info p {
+    padding: 20px 35px;
+}
+
+.left-info p a {
+    color: #000;
+}
+
+.right-info-about {
+    font-weight: 300;
+    width: 50%;
+    float: left;
+    font-size: 50px;
+    color: #000;
+}
+
+.right-info-about p {
+    padding: 0px 35px;
+    float: right;
+}
+
+.right-info-about p a {
+    color: #000;
+}
+
+.photo-text-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-container {
+    margin: 0 20px;
+    background-color: #fff;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+.photo-container img {
+    height: 500px;
+}
+
+.about-container {
+    margin: 0 20px;
+    width: 700px;
+}
+
+.name {
+    line-height: 1.35;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.price {
+    line-height: 1.35;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.about {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.about-container ul {
+    padding-left: 20px;
+}
+
+.about-container ul li {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.protein-2 .photo-text-container, .protein-3 .photo-text-container, .geiner-2 .photo-text-container, .geiner-3 .photo-text-container, .creatin-1 .photo-text-container, .creatin-2 .photo-text-container, .creatin-3 .photo-text-container {
+    align-items: center;
+}
+
+.protein-1, .protein-2, .protein-3, .geiner-1, .geiner-2, .geiner-3, .creatin-1, .creatin-2, .creatin-3 {
+    display: none;
+}
+
+/* ------------media---------- */
+
+@media screen and (max-width : 1200px) {
+
+    .text-main-container {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width : 890px) {
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        padding: 0;
+        display: block;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .middle-container ul li:hover .menusub-content {
+        margin-left: auto;
+    }
+
+    .main-text p {
+        font-size: 60px;
+        margin: auto;
+        width: 85%;
+    }
+
+    .container-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .new-items {
+        width: calc(100%/1.5);
+        padding-bottom: 30px;
+        height: auto;
+    }
+
+    .photo-text-container {
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+
+    .cart-img {
+        right: 20px;
+    }
+
+}
+
+@media screen and (max-width : 750px) {
+
+    .container-content .content {
+        max-width: 400px;
+    }
+
+    .container-content .content h1 {
+        font-size: 25px;
+    }
+
+    .container-content .content ul {
+        font-size: 16px;
+    }
+
+    .about-content ul li a:hover {
+        font-size: 16px;
+        position: relative;
+        color: #04bf58;
+        transition: 0.3s;
+    }
+    
+    .about-content ul li a .main-word:hover {
+        font-size: 16px;
+        color: #04bf58;
+        transition: 0.3s;
+    }
+
+    .container-about-ex-first h1 .main-word {
+        font-size: 25px;
+    }
+
+    .main-photo .main-text p {
+        width: 85%;
+        margin: auto;
+        font-size: 48px;
+    }
+
+    .photo-container {
+        width: 350px;
+        height: 350px;
+    }
+
+    .photo-container img {
+        height: 350px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .about {
+        font-size: 18px;
+    }
+
+    .about-container ul li {
+        font-size: 18px;
+    }
+
+    .cart-container {
+        max-width: 450px;
+    }
+
+    .items img {
+        width: 60px;
+    }
+
+    .items a {
+        font-size: 15px;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width : 660px) {
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .text-container ul {
+        font-size: 16px;
+    }
+
+    .text-container h1 {
+        font-size: 20px;
+    }
+
+    .text-container p {
+        font-size: 16px;
+    }
+
+    .text-main-container {
+        max-width: 80%;
+    }
+
+    .photo2, .photo3,.photo1 {
+        height: 200px;
+    }
+
+    .o {
+        padding: 15px 0;
+    }
+
+    .text-main-container {
+        padding: 0 0;
+    }
+
+    .main-text p {
+        font-size: 35px;
+    }
+    .about_product p {
+        font-size: 16px;
+    }
+
+    .text-about {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .first p {
+        font-size: 16px;
+    }
+
+    .second button {
+        font-size: 16px;
+        width: 40%;
+    }
+
+    a .first {
+        width: 40%;
+    }
+
+    .new-items {
+        height: 480px;
+    }
+
+    .cart-img img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .count {
+        width: 20px;
+        height: 20px;
+    }
+
+    .count input {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 590px) {
+
+    .padding40px {
+        width: 5%;
+    }
+        
+    .left-table {
+        width: calc(100%/3);
+    }
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 16px;
+    }
+
+    .middle-table {
+        width: calc(100%/3);
+    }
+
+    .middle-container .list-item {
+        font-size: 16px;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-table {
+        width: calc(100%/3);
+    }
+
+    .right-container .right-button {
+        padding: 7px 26px;
+    }
+
+    .main-photo .main-text p {
+        font-size: 30px;
+    }
+
+    .container-content .content {
+        max-width: 70%;
+    }
+
+    .header-home-training h1 {
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+
+    .container-cont .cont {
+        max-width: 70%;
+    }
+
+    .container-cont .cont p {
+        font-size: 16px;
+    }
+
+    .header-home-training {
+        width: 85%;
+    }
+
+    .container-about-ex-first {
+        width: 80%;
+        margin: auto;
+    }
+
+    .photo2, .photo3,.photo1 {
+        height: 130px;
+    }
+
+    .photo img {
+        height: 270px;
+    }
+
+    .new-items {
+        height: 350px;
+    }
+
+    .container-items {
+        padding-bottom: 0;
+    }
+
+    .top-container-info {
+        margin-bottom: 15px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .about {
+        font-size: 16px;
+    }
+
+    .about-container ul li {
+        font-size: 16px;
+    }
+
+    .photo-container {
+        width: 250px;
+        height: 250px;
+    }
+
+    .photo-container img {
+        height: 250px;
+    }
+
+    .left-info {
+        font-size: 16px;
+        width: 60%;
+    }
+
+    .right-info-about {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width : 380px) {
+
+    
+    .left-container a .sport-library {
+        white-space: normal;
+        font-size: 14px;
+    }
+
+    .middle-container .list-item {
+        font-size: 14px;
+    }
+
+    .menusub-list {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .middle-container .menu ul:not(.menusub-content) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-container .right-button {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+
+    .header-home-ex-h1 h1 {
+        font-size: 25px;
+    }
+
+}

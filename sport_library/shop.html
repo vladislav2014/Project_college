@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="RU-ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="Товары спортивного питания">
+    <meta name = "keywords" content="спорт, похудение, спортивное питание, протеин, креатин, гейнер, купить протеин, купить гейнер, купить креатин">
+    <meta name = "robots" content="">
+    <title>Товары</title>
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+</head>
+
+<body>
+    <div class="main-container" id="main-container">
+        <div class="container">
+            <nav>
+                <div class="nav-container">
+                    <div class="padding40px"></div>
+                    <div class="left-table">
+                        <div class="left-container">
+                            <a href="index.html">
+                                <div class="sport-library">Спортивная библиотека</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="middle-table">
+                        <div class="middle-container">
+                            <div class="menu">
+                                <ul>
+                                    <li class="list-item"><a href="index.html#about-us" class="hyper">О нас</a></li>
+                                    <li class="list-item">Тренировки
+                                        <ul class="menusub-content">
+                                            <li class="menusub-list"><a href="base.html">Базовые упражнения</a></li>
+                                            <li class="menusub-list"><a href="home-ex.html">Тренировки в домашних
+                                                    условиях</a></li>
+                                            <li class="menusub-list"><a href="gym-ex.html">Тренировки в зале</a></li>
+                                        </ul>
+                                    <li class="list-item"><a href="food.html" class="hyper">Питание</a>
+                                    <li class="list-item"><a href="#" class="hyper">Товары</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-table">
+                        <div class="right-container">
+                            <a href="index.html#footer-down"><button class="right-button">Контакты</button></a>
+                        </div>
+                    </div>
+                    <div class="padding40px"></div>
+                </div>
+            </nav>
+        </div>
+
+        <a href="javascript:Usecart()">
+            <div class="cart-img" id="cart">
+                <img src="images/cart.png" alt="">
+                <div class="count" id="count">
+                    <input type="text" id="counter" style="width: 12px; background-color: transparent; border: 0;"
+                        readonly disabled>
+                </div>
+            </div>
+        </a>
+
+        <div class="padding90px"></div>
+
+        <div class="scroll-photo">
+            <div class="main-text">
+                <p>Спортивное питание</p>
+            </div>
+        </div>
+        <a name="one"></a>
+        <div class="about_product">
+            <p>
+                У нас вы сможете купить спортивное и функциональное питание и добавки, которые подходят для тех, кто
+                занимается спортом, фитнесом и бодибилдингом, следит за своим самочувствием и фигурой, хочет оставаться
+                здоровым и полным жизненных сил.
+            </p>
+        </div>
+        <div class="line-hr">
+            <div class="container-hr">
+                <hr>
+            </div>
+        </div>
+
+        <div class="shop-items">
+            <div class="container-items">
+                <div class="new-items">
+                    <div class="photo">
+                        <img src="shop/whey.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Протеин Optimum Nutrition 100% 2270 г
+                        </p>
+                        <p class="price">3990 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(1)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(1)">Купить</button></div>
+                    </div>
+                </div>
+
+
+
+                <div class="new-items">
+                    <div class="photo">
+                        <img src="shop/whey-max.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Протеин Maxler Matriza 5.0 2270 г
+                        </p>
+                        <p class="price">2499 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(2)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(2)">Купить</button></div>
+                    </div>
+                </div>
+                <a name="two"></a>
+                <div class="new-items">
+                    <div class="photo">
+                        <img src="shop/whey-rline.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Протеин Rline Light Whey 1000 г
+                        </p>
+                        <p class="price">990 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(3)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(3)">Купить</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-items">
+                <div class="new-items">
+                    <div class="photo">
+                        <img src="shop/ser-mas.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Гейнер Optimum Nutrition Serious Mass 2700 г Chocolate
+                        </p>
+                        <p class="price">2945 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(4)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(4)">Купить</button></div>
+                    </div>
+                </div>
+                <div class="new-items">
+                    <div class="photo">
+                        <img src="shop/mega-gein.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Гейнер Maxler Mega Gainer 1000 г
+                        </p>
+                        <p class="price">800 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(5)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(5)">Купить</button></div>
+                    </div>
+                </div>
+
+                <div class="new-items">
+                    <div class="photo">
+                        <img src="shop/mutant.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Гейнер Mutant Mass 6800 г
+                        </p>
+                        <p class="price">4500 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(6)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(6)">Купить</button></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-items">
+                <div class="new-items">
+                    <div class="photo" style="padding-bottom: 15px;">
+                        <img src="shop/max-creat.png" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Maxler Creatine 500 г без вкуса
+                        </p>
+                        <p class="price">749 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(7)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(7)">Купить</button></div>
+                    </div>
+                </div>
+
+                <div class="new-items">
+                    <div class="photo" style="padding-bottom: 15px;">
+                        <img src="shop/perf-creat.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            SAN Performance Creatine 300 г без вкуса
+                        </p>
+                        <p class="price">489 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(8)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(8)">Купить</button></div>
+                    </div>
+                </div>
+
+                <div class="new-items">
+                    <div class="photo" style="padding-bottom: 15px;">
+                        <img src="shop/rline-creat.jpg" alt="">
+                    </div>
+                    <div class="text-about">
+                        <p>
+                            Rline Creatine Caps 200 капсул без вкуса
+                        </p>
+                        <p class="price">500 р.</p>
+                    </div>
+                    <div class="button-hover">
+                        <a href="javascript:About(9)">
+                            <div class="first">
+                                <p>О товаре</p>
+                            </div>
+                        </a>
+                        <div class="second"><button class="right-button" onclick="Putcart(9)">Купить</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------корзина------------- -->
+
+    <div class="container-cart" id="container-cart">
+
+        <div class="cart-container">
+            <p style="padding-bottom: 30px; font-size:24px; line-height: 1.35;font-weight: 600;">Ваш заказ: </p>
+            <div class="cart" id="cart">
+                <div class="items" id="1">
+                    <img src="shop/whey.jpg" alt="">
+                    <p>Протеин Optimum Nutrition 100% 2270 г</p>
+                    <a href="javascript:MinusCart(1)">-</a>
+                    <input type="text" id="size1" size="1" readonly disabled>
+                    <a href="javascript:PlusCart(1)">+</a>
+                    <input type="text" id="price1" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="2">
+                    <img src="shop/whey-max.jpg" alt="">
+                    <p>Протеин Maxler Matriza 5.0 2270 г</p>
+                    <a href="javascript:MinusCart(2)">-</a>
+                    <input type="text" id="size2" readonly disabled size="1">
+                    <a href="javascript:PlusCart(2)">+</a>
+                    <input type="text" id="price2" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="3">
+                    <img src="shop/whey-rline.jpg" alt="">
+                    <p>Протеин Rline Light Whey 1000 г </p>
+                    <a href="javascript:MinusCart(3)">-</a>
+                    <input type="text" id="size3" readonly disabled size="1">
+                    <a href="javascript:PlusCart(3)">+</a>
+                    <input type="text" id="price3" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="4">
+                    <img src="shop/ser-mas.jpg" alt="">
+                    <p>Гейнер Optimum Nutrition Serious Mass 2700 г Chocolate</p>
+                    <a href="javascript:MinusCart(4)">-</a>
+                    <input type="text" id="size4" readonly disabled size="1">
+                    <a href="javascript:PlusCart(4)">+</a>
+                    <input type="text" id="price4" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="5">
+                    <img src="shop/mega-gein.jpg" alt="">
+                    <p>Гейнер Maxler Mega Gainer 1000 г</p>
+                    <a href="javascript:MinusCart(5)">-</a>
+                    <input type="text" id="size5" readonly disabled size="1">
+                    <a href="javascript:PlusCart(5)">+</a>
+                    <input type="text" id="price5" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="6">
+                    <img src="shop/mutant.jpg" alt="">
+                    <p>Гейнер Mutant Mass 6800 г </p>
+                    <a href="javascript:MinusCart(6)">-</a>
+                    <input type="text" id="size6" readonly disabled size="1">
+                    <a href="javascript:PlusCart(6)">+</a>
+                    <input type="text" id="price6" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="7">
+                    <img src="shop/max-creat.png" alt="">
+                    <p>Maxler Creatine 500 г без вкуса </p>
+                    <a href="javascript:MinusCart(7)">-</a>
+                    <input type="text" id="size7" readonly disabled size="1">
+                    <a href="javascript:PlusCart(7)">+</a>
+                    <input type="text" id="price7" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="8">
+                    <img src="shop/perf-creat.jpg" alt="">
+                    <p>SAN Performance Creatine 300 г без вкуса </p>
+                    <a href="javascript:MinusCart(8)">-</a>
+                    <input type="text" id="size8" readonly disabled size="1">
+                    <a href="javascript:PlusCart(8)">+</a>
+                    <input type="text" id="price8" readonly size="4" disabled>
+                </div>
+
+                <div class="items" id="9">
+                    <img src="shop/rline-creat.jpg" alt="">
+                    <p>Rline Creatine Caps 200 капсул без вкуса </p>
+                    <a href="javascript:MinusCart(9)">-</a>
+                    <input type="text" id="size9" readonly disabled size="1">
+                    <a href="javascript:PlusCart(9)">+</a>
+                    <input type="text" id="price9" readonly size="4" disabled>
+                </div>
+            </div>
+            <p style="padding-bottom: 30px; font-size:18px; line-height: 1.35;font-weight: 600; text-align: right;">
+                Сумма: <input type="text" id="input-sum" readonly disabled
+                    style="border: 0; background-color: #fff; font-size: 18px; width: 15%; text-align: center;"> </p>
+            <div class="order">
+                <div class="details-order">
+                    <p style="font-size: 16px; padding-bottom: 5px;">Ваше имя</p>
+                    <input type="text" id="text-input">
+                </div>
+
+                <div class="details-order">
+                    <p style="font-size: 16px; padding-bottom: 5px;">Ваше Email</p>
+                    <input type="email" id="email-input">
+                </div>
+
+                <div class="details-order">
+                    <p style="font-size: 16px; padding-bottom: 5px;">Ваше Телефон</p>
+                    <input type="tel" id="tel-input">
+                </div>
+
+                <div class="details-order">
+                    <p class="button"><button class="right-button" onclick="Send()">Оформить заказ</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="top-container">
+            <div class="right-info"><a href="javascript:CloseCart()">
+                    <p>×</p>
+                </a></div>
+        </div>
+    </div>
+
+    <!-- ---------конец корзины---------- -->
+
+    <!-- ---------информация о товарах-------- -->
+    <div class="protein-1" id="protein-1">
+        <a name="top"></a>
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(1)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(1)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/whey.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">Протеин Optimum Nutrition 100% 2270 г</p>
+                <p class="price">Цена: 3990 р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Протеин Optimum Nutrition 100% Whey Gold Standard 2270 г двойной со вкусом шоколада
+                    выпускается одним из лидеров мирового рынка спортивного питания и является собственной разработкой
+                    компании. Продукт многократно был удостоен награды «Протеин года».</p>
+                <p class="about">Из преимуществ – большая упаковка, рассчитанная на 73 порции. Размер одной – 31 г или
+                    же одна мерная ложка. Питательность порции:</p>
+                <p class="about">
+                    <ul>
+                        <li>белки – 24 г, углеводы – 2 г, потому ее регулярное применение способствует приросту мышечной
+                            массы;</li>
+                        <li>благодаря низкому содержанию жиров (1 г) возможно использование с целью похудения;</li>
+                        <li>энергетическая ценность – 110 ккал, благодаря этому мышечные клетки защищены от разрушения
+                            во время тяжелых физических нагрузок и активно восстанавливаются после их завершения;</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="padding90px"></div>
+    </div>
+
+    <div class="protein-2" id="protein-2">
+        <a name="top2"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(2)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(2)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/whey-max.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">Протеин Maxler Matriza 5.0 2270 г</p>
+                <p class="price">Цена: 2499р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Многокомпонентный протеин Maxler Usa Matriza 5,0 представляет собой комплекс
+                    высококачественных молочных белков (сывороточный протеин, молочный протеин), который способствует
+                    максимальному росту и поддержанию мышечной массы. Работает до и после тренировки, в промежутках
+                    между приемами пищи или в любое другое время, когда вам необходима немедленная подпитка качественным
+                    белком.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="protein-3" id="protein-3">
+        <a name="top3"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(3)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(3)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/whey-rline.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">Протеин Rline Light Whey 1000 г</p>
+                <p class="price">Цена: 990р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Концентрат сывороточного протеина, формирующий белковую матрицу Light Whey от RLine,
+                    отличается полноценным аминокислотным профилем и высокой биологической ценностью. Включение в
+                    программу подготовки данного протеина, окажет неоценимую поддержку организму в обеспечении
+                    строительным материалом для роста мышц, их восстановления, а также их сохранения от разрушения.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="geiner-1" id="geiner-1">
+        <a name="top4"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(4)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(4)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/ser-mas.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">Гейнер Optimum Nutrition Serious Mass 2700 г Chocolate</p>
+                <p class="price">Цена: 2945р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">1250 калорий в порции с натуральным вкусом — это то, что надо для создания мускулатуры
+                    поразительной массы и силы. Надо быть серьезным спортсменом, чтобы справиться с такой калорийностью
+                    и превратить содержащийся в Serious Mass белок в собственные мышцы!</p>
+                <p class="about">С помощью Serious Mass Вы получите необходимое количество протеинов, углеводов,
+                    микроэлементов и калорий, что поможет Вам быстро набрать вес. Каждый элемент имеет высокую
+                    биологическую ценность.</p>
+                <p class="about">Serious Mass содержит такие ключевые факторы, как аминокислоты. Serious Mass содержит
+                    50 г белка и 251 г энергоуглеводов в каждой порции. Комплекс углеводов содержит длинные, средние и
+                    короткие цепочки полисахаридов, дающих энергию Вашему организму, в том числе и кристаллическую
+                    фруктозу.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="geiner-2" id="geiner-2">
+        <a name="top5"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(5)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(5)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/mega-gein.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">Гейнер Maxler Mega Gainer 1000 г</p>
+                <p class="price">Цена: 800р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Maxler Mega Gainer – это белково-углеводная смесь, предназначенная для быстрого набора
+                    массы, энергетической поддержки организма до и вовремя тренировки. Простые (декстроза) и более
+                    сложные (мальтодекстрин) углеводы в составе Mega Gainer обеспечивают энергией организм на протяжении
+                    длительной тренировки, а богатый витаминно-минеральный комплекс компенсирует потери питательных
+                    микроэлементов при обезвоживании организма из-за усиленных нагрузок.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="geiner-3" id="geiner-3">
+        <a name="top6"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(6)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(6)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/mutant.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">Гейнер Mutant Mass 6800 г</p>
+                <p class="price">Цена: 4500р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Mutant Mass - это гейнер с высоким содержанием протеина. Употребляя Mutant Mass, Вы
+                    можете быть уверены, что получаете достаточное количество протеина.
+                    В формулу включена специальная смесь из полезных жиров, а также дополнительные ингредиенты, которые
+                    улучшают усвоение питательных веществ.
+                    Mutant Mass богат кальцием, что полезно для костей.
+                    В каждой порции продукта Mutant Mass содержится дополнительно 1050 качественных калорий, которые
+                    помогут Вам увеличить свой вес.
+                    Имеет отличный вкус.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="creatin-1" id="creatin-1">
+        <a name="top7"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(7)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(7)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/max-creat.png" alt=""></div>
+            <div class="about-container">
+                <p class="name">Maxler Creatine 500 г без вкуса</p>
+                <p class="price">Цена: 749р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Creatine Monohydrate от Maxler:</p>
+                <p class="about">
+                    <ul>
+                        <li>Взрывная сила;</li>
+                        <li>Ускоренное восстановление;</li>
+                        <li>Повышенная работоспособность;</li>
+                    </ul>
+                </p>
+                <p class="about">Creatine Monohydrate Maxler задерживает воду в мышечной ткани, способствуя синтезу
+                    протеина и увеличивая мышцы. Выше работоспособность, больше набор массы и как результат больше
+                    мышечная масса. Для большей эффективности и лучшего усвоения креатина от Макслер, мы рекомендуем
+                    пить больше воды во время употребления креатина. Maxler Creatine Monohydrate рекомендуется для
+                    употребления при занятиях любыми видами спорта.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="creatin-2" id="creatin-2">
+        <a name="top8"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(8)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(8)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/perf-creat.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">SAN Performance Creatine 300 г без вкуса</p>
+                <p class="price">Цена: 489р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Главной отличительной особенностью продукта SAN Performance Creatine от других
+                    спортивных добавок на основе креатина является его микронизированная структура. Это означает, что
+                    продукт имеет мельчайшую структурную форму, благодаря которой он моментально и легко смешивается с
+                    водой до состояния полного растворения, быстро и качественно поглощается и усваивается организмом с
+                    последующим выводом отработанных фракций. Именно микронизированная структура Performance Creatine от
+                    SAN не позволяет данной креатиновой добавке задерживаться в кишечнике и вызывать дискомфорт, что
+                    характерно для обычного моногидрата креатина.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="creatin-3" id="creatin-3">
+        <a name="top9"></a>
+
+        <div class="top-container-info">
+            <div class="left-info">
+                <p><a href="javascript:CloseAbout(9)">← Больше товаров</a>
+            </div>
+            <div class="right-info-about">
+                <p><a href="javascript:CloseAbout(9)">×</a></p>
+            </div>
+        </div>
+
+        <div class="photo-text-container">
+            <div class="photo-container"><img src="shop/rline-creat.jpg" alt=""></div>
+            <div class="about-container">
+                <p class="name">Rline Creatine Caps 200 капсул без вкуса</p>
+                <p class="price">Цена: 500р.</p>
+                <p class="name">Описание:</p>
+                <p class="about">Включение в ежедневный рацион атлета R-Line Creatine Caps позволяет увеличить
+                    интенсивность тренинга. Благодаря моногидрату креатина повышаются силовые показатели и
+                    активизируется процесс восстановления. Капсульная форма продукта упрощает его применение.</p>
+            </div>
+        </div>
+    </div>
+    <a name="last"></a>
+    </div>
+
+</body>
+
+</html>
